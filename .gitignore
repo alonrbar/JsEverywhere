@@ -1,0 +1,12 @@
+/.gtm/
+/.tmp/
+/.vscode/symbols.json
+/mobile-build/dist
+/mobile-build/node_modules
+/mobile-build/platforms
+/mobile-build/plugins
+/mobile-build/www
+/mobile-build/config.xml
+/dist
+/node_modules
+npm-debug.log
