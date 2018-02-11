@@ -11,7 +11,8 @@
     "mobile-copy-new-version": "rmdir mobile-build\\www /s /q && xcopy mobile mobile-build\\www\\",
     "mobile-build": "cd mobile-build && cordova build --debug",
     "mobile-install": "node mobile\\install",
-    "desktop": "electron desktop"
+    "desktop": "electron desktop",
+    "desktop-build": "electron-packager desktop"
   },
   "dependencies": {
     "adbkit": "2.11.0",
