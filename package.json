@@ -10,10 +10,13 @@
     "mobile": "npm run mobile-copy-new-version && npm run mobile-build && npm run mobile-install",
     "mobile-copy-new-version": "rmdir mobile-build\\www /s /q && xcopy mobile mobile-build\\www\\",
     "mobile-build": "cd mobile-build && cordova build --debug",
-    "mobile-install": "node mobile\\install"
+    "mobile-install": "node mobile\\install",
+    "desktop": "electron desktop"
   },
   "dependencies": {
     "adbkit": "2.11.0",
-    "cordova": "7.0.0"
+    "cordova": "7.0.0",
+    "electron": "1.8.2",
+    "electron-packager": "11.0.0"
   }
 }
