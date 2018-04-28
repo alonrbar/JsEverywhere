@@ -12,8 +12,9 @@ async function getName() {
         console.log('What is your name???');        
         const stdin = process.openStdin();
         stdin.on('data', (data) => {
-            const name = data.toString().trim();
+            const name = data.toString().trim();            
             resolve(name);
+            stdin.end();
         });
         
     });

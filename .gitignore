@@ -1,6 +1,7 @@
 /.gtm/
 /.tmp/
 /.vscode/symbols.json
+/js-everywhere-desktop-win32-x64
 /mobile-build
 /dist
 /node_modules
